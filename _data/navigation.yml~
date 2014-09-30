@@ -1,0 +1,13 @@
+# Site navigation links
+
+- title: Про мене
+  url: /about/
+
+- title: Публікації
+  url: /posts/
+
+- title: Статичне
+  url: /theme-setup/
+
+- title: Made Mistakes
+  url: http://mademistakes.com

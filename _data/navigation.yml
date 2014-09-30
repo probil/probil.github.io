@@ -1,0 +1,13 @@
+# Site navigation links
+
+- title: Про мене
+  url: /about/
+
+- title: Публікації
+  url: /posts/
+
+- title: Портфоліо
+  url: /portfolio/
+
+- title: <i class='fa fa-rss'></i> RSS
+  url: /feed.xml
