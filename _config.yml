@@ -2,8 +2,8 @@
 
 title:            Блоґ Ma)(imuM
 locale:           uk_UA
-url:              http://0.0.0.0:4000
-#url:	          http://probil.github.io
+#url:              http://0.0.0.0:4000
+url:	          http://probil.github.io
 
 
 # Jekyll configuration
