@@ -16,7 +16,14 @@ article img {
 	height: auto;
 	border-width: 0; 
 	vertical-align: middle; 
-	-ms-interpolation-mode: bicubic; 
+	-ms-interpolation-mode: bicubic;
+}
+article .thumb400 img{
+  max-height: 400px;
+  max-width: 400px;
+}
+article .thumb400{
+  padding-left: 10px;
 }
 svg:not(:root) {
 		overflow: hidden; 
