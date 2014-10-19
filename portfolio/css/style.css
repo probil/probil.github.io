@@ -1,0 +1,389 @@
+body{
+    -webkit-font-smoothing: antialiased!important;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility!important;
+    height: auto;
+    background: #333 url("../img/homebkg.png") repeat-x;
+    background-size: 5px 500px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+body>h2{
+    color: #d0fe00;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 58px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 80px;
+    position: relative;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.1),
+    0 0 10px rgba(255, 255, 255 ,0.1),
+    0 0 15px rgba(255, 255, 255, 0.1),
+    0 0 20px rgba(182, 255, 0, 0.1),
+    0 0 35px rgba(182, 255, 0, 0.1),
+    0 0 40px rgba(182, 255, 0, 0.1),
+    0 0 50px rgba(182, 255, 0, 0.1),
+    0 0 75px rgba(182, 255, 0, 0.1);
+    cursor: pointer;
+    -webkit-transition: text-shadow,color 0.6s;
+    -moz-transition: text-shadow,color 0.6s;
+    -ms-transition: text-shadow,color 0.6s;
+    -o-transition: text-shadow,color 0.6s;
+    transition: text-shadow,color 0.6s;
+
+}
+body>h2:hover{
+    color:#fff;
+    text-shadow: 0 0 10px #fff,
+    0 0 20px  #fff,
+    0 0 30px  #fff,
+    0 0 40px  #B6FF00,
+    0 0 70px  #B6FF00,
+    0 0 80px  #B6FF00,
+    0 0 100px #B6FF00,
+    0 0 150px #B6FF00;
+    -webkit-animation: neon4 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon4 1.5s ease-in-out infinite alternate;
+    -o-animation: neon4 1.5s ease-in-out infinite alternate;
+    animation: neon4 1.5s ease-in-out infinite alternate;
+}
+
+.container{
+    margin-top: 80px ;
+    position: relative;
+}
+
+.wrapper{
+    line-height: 1.428571429;
+}
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+/* The flipping effect */
+.flip-container {
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    perspective: 1000;
+
+    -webkit-transform: perspective(1000px);
+    -webkit-transform-style: preserve-3d;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    transform: perspective(1000px);
+    transform-style: preserve-3d;
+}
+
+.flip-container:hover .flipper .front {
+    z-index: -1000;
+}
+
+@media (min-width: 765px) {
+    .csstransformspreserve3d .flip-container:hover .flipper, .flip-container.hover .flipper, #flip-toggle.flip .flipper {
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+}
+@media (max-width: 764px) {
+    .contacts{
+        text-align: left;
+        margin-bottom: 1em;
+    }
+}
+
+
+.flip-container, .front, .back {
+    width: 100%;
+    height: 0;
+    padding-bottom: 67.6245211%;
+    margin-bottom: 30px;
+    border-radius: 6px;
+}
+
+.flipper {
+    -webkit-transition: 0.5s;
+    -webkit-transform-style: preserve-3d;
+
+    -moz-transition: 0.5s;
+    -moz-transform-style: preserve-3d;
+
+    -o-transition: 0.5s;
+    -o-transform-style: preserve-3d;
+
+    transition: 0.5s;
+    transform-style: preserve-3d;
+
+    position: relative;
+}
+
+.front, .back {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.front {
+    background: transparent;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.front img {
+    width: 100% !important;
+}
+
+.back {
+    background: #1A1A1A;
+    border-radius: 6px;
+}
+.back a{
+    text-decoration: none;
+}
+.csstransformspreserve3d .back {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.front .overlay {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    color: #fff;
+    font-weight: bold;
+    background: #1A1A1A;
+    border-radius: 3px;
+}
+
+.front .saving {
+    display: inline-block;
+    background: #1A1A1A;
+    color: #f5f5f5;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 2px 5px;
+    border-radius: 3px 0 0 3px;
+    min-width: 50px;
+}
+
+.front .price {
+    display: inline-block;
+    background: #d0fe00;
+    color: #111;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+.back-text {
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 30px 20px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1.428571429;
+}
+
+.back-text h5 {
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+a.back-text,
+a.back-text:active,
+a.back-text:hover {
+    color: #fff;
+}
+
+.back .flip-intro {
+    font-size: 16px;
+    font-weight: 400;
+    color: #aaa;
+    margin-bottom: 2px;
+}
+
+.back .flip-link {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: underline;
+}
+
+@media (min-width: 1200px) {
+    .back-text {
+        padding: 60px 20px;
+    }
+    .back-text.back-deal {
+        padding: 30px 20px;
+    }
+}
+
+.footer{
+    background-color: #222;
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding: 20px;
+    color: #aaa;
+    border-radius: 6px;
+    text-align: right;
+    line-height: 1.428571429;
+    font-size: 16px;
+}
+.footer a{
+    color: #d0fe00;
+}
+.footer a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer .info{
+    text-align: left;
+}
+.footer .name{
+    color: #fff;
+    font-weight: 700;
+}
+.footer .altername{
+    color: #fff;
+}
+.tips{
+    position: absolute;
+    right: 20px;
+    top: -40px;
+    font-size: 16px;
+    color: #444;
+    display: block;
+    vertical-align: bottom;
+}
+.tips-left{
+    position: absolute;
+    left: 20px;
+    top: -40px;
+    font-size: 16px;
+    display: block;
+    vertical-align: bottom;
+}
+.tips-left>a{
+    color: #444;
+    text-decoration: none;
+}
+.tips-left>a:hover{
+    color: #aaa;
+}
+
+/* ======================= *\
+            LOADER
+\* ======================= */
+.loading{
+    text-align: center;
+    background: #222;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 40;
+}
+
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+    display: table;
+    box-sizing: border-box;
+    border-spacing: 0.3em;
+}
+.loader>.line {
+    display: table-row;
+}
+.loader>.line>span {
+    height: 28px;
+    width: 28px;
+    display: table-cell;
+    position: relative;
+    background: #fdfdfd;
+    opacity: 0;
+    -webkit-animation: flicker 0.5985999999999999s ease-out infinite alternate;
+    -moz-animation: flicker 0.5985999999999999s ease-out infinite alternate;
+    -o-animation: flicker 0.5985999999999999s ease-out infinite alternate;
+    animation: flicker 0.5985999999999999s ease-out infinite alternate;
+}
+.loader>.line:nth-child(1) span:nth-child(1) {
+    -webkit-animation-delay: .50s;
+    -moz-animation-delay: .50s;
+    -o-animation-delay: .50s;
+    animation-delay: .50s;
+}
+.loader>.line:nth-child(1) span:nth-child(2) {
+    -webkit-animation-delay: .70s;
+    -moz-animation-delay: .70s;
+    -o-animation-delay: .70s;
+    animation-delay: .70s;
+}
+.loader>.line:nth-child(1) span:nth-child(3) {
+    -webkit-animation-delay: .60s;
+    -moz-animation-delay: .60s;
+    -o-animation-delay: .60s;
+    animation-delay: .60s;
+}
+.loader>.line:nth-child(2) span:nth-child(1) {
+    -webkit-animation-delay: .20s;
+    -moz-animation-delay: .20s;
+    -o-animation-delay: .20s;
+    animation-delay: .20s;
+}
+.loader>.line:nth-child(2) span:nth-child(2) {
+    -webkit-animation-delay: .80s;
+    -moz-animation-delay: .80s;
+    -o-animation-delay: .80s;
+    animation-delay: .80s;
+}
+.loader>.line:nth-child(2) span:nth-child(3) {
+    -webkit-animation-delay: .90s;
+    -moz-animation-delay: .90s;
+    -o-animation-delay: .90s;
+    animation-delay: .90s;
+}
+.loader>.line:nth-child(3) span:nth-child(1) {
+    -webkit-animation-delay: .10s;
+    -moz-animation-delay: .10s;
+    -o-animation-delay: .90s;
+    animation-delay: .10s;
+}
+.loader>.line:nth-child(3) span:nth-child(2) {
+    -webkit-animation-delay: .30s;
+    -moz-animation-delay: .30s;
+    -o-animation-delay: .30s;
+    animation-delay: .30s;
+}
+.loader>.line:nth-child(3) span:nth-child(3) {
+    -webkit-animation-delay: .40s;
+    -moz-animation-delay: .40s;
+    -o-animation-delay: .40s;
+    animation-delay: .40s;
+}
+
+
+/* angular prevent exception rendering */
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}

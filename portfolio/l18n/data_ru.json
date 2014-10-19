@@ -1,0 +1,181 @@
+{
+    "Name": "Портфолио",
+    "ViewSite": "Перейти на страницу",
+    "FooterText": "Все размещенные здесь проекты частично или полностью выполнены непосредственно мной (подробности в описании к проекту). Любую реализацию я могу повторить и объяснить. Если вы с каких-то причин не желаете видеть здесь свою работу – просто сообщите мне.<br/><br/>Русский язык для этой страницы определен автоматически относительно настроек вашего браузера. Cтраница также существует на <a href='?rus#?gl=uk'>украинском</a> и <a href='?rus#?gl=en'>английском</a> языках. <br/><br/>Ma)(imuM (c) 2014 | Создано на базе MVW-библиотеки <a href='https://angularjs.org/'>AngularJS</a> и <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/transform-style'>экспериментальных функций CSS3</a>",
+    "AboutMe":"<span class='name'>Макс Ляшук</span><br/>он же <span class='altername'>Ma)(imuM</span>, <span class='altername'>probil</span>, <span class='altername'>probel</span>.<br/><br/> Программист, верстальщик, гик <br/>переводчик, лайфхакер, линуксоид. <br/><br/> virus_trojan_mod <i class='fa fa-skype'></i><br/>m_lyashuk@ukr.net <i class='fa fa-envelope'></i>",
+    "Tip": "Попробуй навести сюда курсор",
+    "GoToBlog":"Вернуться к блогу",
+    "CBTitle": "Кроссбраузерность",
+    "UsedLibs": "Библиотеки",
+    "NoPhotoUrl": "http://i.imgur.com/ct1lokN.jpg?3",
+    "Projects": [
+        {
+            "Name": "Сайт «Убей рутину! — 2»",
+            "Description": "Весь front-end (верстка psd, анимация, программирование)",
+            "CB": "МОБ (iOS, Android) / ПК (IE8+)",
+            "UsedLibs": "jQuery, FancyBox, iosslider, PIE",
+            "Image": "img/sites/rutina.jpg",
+            "Site": "http://rutina2.mayer-pulse.ru"
+        },
+        {
+            "Name": "Інфографика «Как выбрать штори»",
+            "Description": "Верстка pdf для вставки в блог, подбор шрифтов",
+            "CB": "ПК (IE8+) ",
+            "UsedLibs": "----",
+            "Image": "img/sites/shtory-infographics.png",
+            "Site": ""
+        },
+        {
+            "Name": "Сайт «Нивелирование отзывов»",
+            "Description": "Front-end (частичная верстка psd, анимация, программирование)",
+            "CB": "ПК (IE8+)",
+            "UsedLibs": "jQuery, jQ.MouseWheel, Endless, Velocity",
+            "Image": "img/sites/leveling.jpg",
+            "Site": "http://leveling.mayer-pulse.ru/"
+        },
+        {
+            "Name": "Сайт «Ам-клуб»",
+            "Description": "Front-end (частичная верстка psd, анимация, не включая слайдеры)",
+            "CB": "ПК (IE8+)",
+            "UsedLibs": "jQuery, FancyBox, brickwork",
+            "Image": "img/sites/amclub_in.jpg",
+            "Site": "http://amclub.su/"
+        },
+        {
+            "Name": "Сайт «Анна Грибанова, художник»",
+            "Description": "Front-end (верстка eps, не включаюя js)",
+            "CB": "ПК (IE8+)",
+            "UsedLibs": "--",
+            "Image": "img/sites/anna-gribanova.jpg",
+            "Site": "http://annagribanova.ru/"
+        },
+        {
+            "Name": "Сайт «Assassin creed»",
+            "Description": "Front-end (верстка psd)",
+            "CB": "ПК (современные браузеры)",
+            "UsedLibs": "--",
+            "Image": "img/sites/Assassins-Creed.jpg",
+            "Site": ""
+        },
+        {
+            "Name": "Сайт «Ростовский театр им.Горького»",
+            "Description": "Front-end (верстка psd окна заказа билетов, SVG-карта с возможностью выбора сектора/места по клику)",
+            "CB": "ПК (IE9+)",
+            "UsedLibs": "jQuery, FancyBox",
+            "Image": "img/sites/bilety.jpg",
+            "Site": ""
+        },
+        {
+            "Name": "SWF -> HTML+CSS3",
+            "Description": "Преобразование трех флэш-приложений на веб-страницу html5 с реализацией анимации на css3 соответственно оригиналу.",
+            "CB": "ПК (современные браузеры)",
+            "UsedLibs": "--",
+            "Image": "img/sites/11.08.2014.cover6.jpg",
+            "Site": ""
+        },
+        {
+            "Name": "Сайт «Counter-Strike: Global Offensive»",
+            "Description": "Front-end (верстка psd)",
+            "CB": "ПК (современные браузеры)",
+            "UsedLibs": "--",
+            "Image": "img/sites/cs_go_olisov_19.08.2014.jpg",
+            "Site": ""
+        },
+        {
+            "Name": "Сайт «Центр кузовного ремонта ФОРУМ»",
+            "Description": "Front-end (верстка psd, подключение видео-проигрователя и карты)",
+            "CB": "ПК (современные браузеры)",
+            "UsedLibs": "Google Maps, uppod",
+            "Image": "img/sites/ekaterina.20.08.2014.jpg",
+            "Site": "http://forumkuzov.ru/"
+        },
+        {
+            "Name": "Сайт «Все о серии игр GTA»",
+            "Description": "Front-end (верстка psd)",
+            "CB": "ПК (современные браузеры)",
+            "UsedLibs": "--",
+            "Image": "img/sites/gta.20.08.2014.jpg",
+            "Site": ""
+        },
+        {
+            "Name": "Сайт «Кіномлин»",
+            "Description": "Front-end (верстка всех страниц сайта, psd)",
+            "CB": "ПК (современные браузеры)",
+            "UsedLibs": "jQuery, Pirobox Extended, Select2",
+            "Image": "img/sites/kinomlyn.2013.jpg",
+            "Site": ""
+        },
+        {
+            "Name": "Сайт «Лас-Вегас бар»",
+            "Description": "Front-end (оптимизация верстки 25Мб->9Мб, исправлание адаптивности и модального окна)",
+            "CB": "МОБ (iOS 3+) / ПК (IE8+, Opera 11+)",
+            "UsedLibs": "jQuery, FancyBox",
+            "Image": "img/sites/lasv-index.jpg",
+            "Site": ""
+        },
+        {
+            "Name": "Сайт «Mirapolis:LMS»",
+            "Description": "Front-end (частичная верстка psd, cлайдер, модальные окна, не включая паралакс)",
+            "CB": "ПК (IE8+)",
+            "UsedLibs": "jQuery, FancyBox, AnythingSlider",
+            "Image": "img/sites/LMS_2.09.2014.jpg",
+            "Site": ""
+        },
+        {
+            "Name": "Сайт ресторана «Парус»",
+            "Description": "Front-end (верстка psd)",
+            "CB": "ПК (IE8+)",
+            "UsedLibs": "----",
+            "Image": "img/sites/restoranParus.jpg",
+            "Site": ""
+        },
+        {
+            "Name": "Сайт «NEWMAC»",
+            "Description": "Front-end (верстка psd, модальные окна)",
+            "CB": "ПК (IE9+ / IE8- (заглушка))",
+            "UsedLibs": "jQuery, FancyBox, PIE",
+            "Image": "img/sites/newmac_13.08.2014.jpg",
+            "Site": ""
+        },
+        {
+            "Name": "Сайт «NAKUP.RU»",
+            "Description": "Front-end - логика вызова и отправки форм покупки (JS) / Back-end - настройка отправки email (PHP)",
+            "CB": "неизвесно",
+            "UsedLibs": "----",
+            "Image": "img/sites/nakup.loc.jpg",
+            "Site": "http://nakup.ru/"
+        },
+        {
+            "Name": "Сайт «S.T.A.L.K.E.R — серия игр»",
+            "Description": "Front-end (верстка psd)",
+            "CB": "ПК (современные браузеры)",
+            "UsedLibs": "--",
+            "Image": "img/sites/stalker.jpg",
+            "Site": ""
+        },
+        {
+            "Name": "Сайт «UaLT»",
+            "Description": "Front-end (дизайн и реализация) + простой back-end на php",
+            "CB": "ПК (современные браузеры)",
+            "UsedLibs": "jQuery, FancyBox, CKEditor",
+            "Image": "img/sites/ualt.loc.jpg",
+            "Site": ""
+        },
+        {
+            "Name": "Сайт «ФинЭксперт»",
+            "Description": "Front-end – логика форм (JS) / Back-end – настройка отправки email (PHP)",
+            "CB": "неизвесно",
+            "UsedLibs": "FancyBox",
+            "Image": "img/sites/finexpert.loc.jpg",
+            "Site": "http://finexpert-spb.ru/"
+        },
+        {
+            "Name": "Сайт «Minecraft»",
+            "Description": "Front-end (верстка psd)",
+            "CB": "ПК (современные браузеры)",
+            "UsedLibs": "--",
+            "Image": "img/sites/Minecraft.jpg",
+            "Site": ""
+        }
+    ]
+}

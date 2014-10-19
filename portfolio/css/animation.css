@@ -1,0 +1,121 @@
+@-webkit-keyframes neon4 {
+    from {
+        text-shadow: 0 0 10px #fff,
+        0 0 20px  #fff,
+        0 0 30px  #fff,
+        0 0 40px  #B6FF00,
+        0 0 70px  #B6FF00,
+        0 0 80px  #B6FF00,
+        0 0 100px #B6FF00,
+        0 0 150px #B6FF00;
+    }
+    to {
+        text-shadow: 0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #fff,
+        0 0 20px #B6FF00,
+        0 0 35px #B6FF00,
+        0 0 40px #B6FF00,
+        0 0 50px #B6FF00,
+        0 0 75px #B6FF00;
+    }
+}
+@-moz-keyframes neon4 {
+    from {
+        text-shadow: 0 0 10px #fff,
+        0 0 20px  #fff,
+        0 0 30px  #fff,
+        0 0 40px  #B6FF00,
+        0 0 70px  #B6FF00,
+        0 0 80px  #B6FF00,
+        0 0 100px #B6FF00,
+        0 0 150px #B6FF00;
+    }
+    to {
+        text-shadow: 0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #fff,
+        0 0 20px #B6FF00,
+        0 0 35px #B6FF00,
+        0 0 40px #B6FF00,
+        0 0 50px #B6FF00,
+        0 0 75px #B6FF00;
+    }
+}
+@-o-keyframes neon4 {
+    from {
+        text-shadow: 0 0 10px #fff,
+        0 0 20px  #fff,
+        0 0 30px  #fff,
+        0 0 40px  #B6FF00,
+        0 0 70px  #B6FF00,
+        0 0 80px  #B6FF00,
+        0 0 100px #B6FF00,
+        0 0 150px #B6FF00;
+    }
+    to {
+        text-shadow: 0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #fff,
+        0 0 20px #B6FF00,
+        0 0 35px #B6FF00,
+        0 0 40px #B6FF00,
+        0 0 50px #B6FF00,
+        0 0 75px #B6FF00;
+    }
+}
+@keyframes neon4 {
+    from {
+        text-shadow: 0 0 10px #fff,
+        0 0 20px  #fff,
+        0 0 30px  #fff,
+        0 0 40px  #B6FF00,
+        0 0 70px  #B6FF00,
+        0 0 80px  #B6FF00,
+        0 0 100px #B6FF00,
+        0 0 150px #B6FF00;
+    }
+    to {
+        text-shadow: 0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #fff,
+        0 0 20px #B6FF00,
+        0 0 35px #B6FF00,
+        0 0 40px #B6FF00,
+        0 0 50px #B6FF00,
+        0 0 75px #B6FF00;
+    }
+}
+
+@-webkit-keyframes flicker {
+    from, 20% {
+        opacity: 0;
+    }
+    100%, to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes flicker {
+    from, 20% {
+        opacity: 0;
+    }
+    100%, to {
+        opacity: 1;
+    }
+}
+@-o-keyframes flicker {
+    from, 20% {
+        opacity: 0;
+    }
+    100%, to {
+        opacity: 1;
+    }
+}
+@keyframes flicker {
+    from, 20% {
+        opacity: 0;
+    }
+    100%, to {
+        opacity: 1;
+    }
+}

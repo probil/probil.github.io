@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Portfolio || Ma)(imuM</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/fonts.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/animation.css"/>
+
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular-sanitize.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</head>
+
+<body ng-controller="mainController">
+<div class="loading">
+    <div class="loader">
+        <div class="line">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="line">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="line">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</div>
+
+<h2 ng-cloak>{{strings.Name}}</h2>
+    
+<div class="container" ng-cloak>
+    <span class="tips"><i class="fa fa-reply fa-rotate-270"></i> {{strings.Tip}}</span>
+    <span class="tips-left"><a href="http://probil.github.io"><i class="fa fa-arrow-left"></i> {{strings.GoToBlog}}</a></span>
+    
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4 wrapper" data-ng-repeat="project in strings.Projects">
+            <div class="flip-container">
+                <div class="flipper">
+                    <div class="front">
+                        <a href="{{project.Site}}">
+                            <img ng-if="project.Image.length > 2" ng-src="{{project.Image}}" alt=""
+                                 class="img-responsive">
+                            <img ng-if="!(project.Image.length > 2)" ng-src="{{strings.NoPhotoUrl}}" alt=""
+                                 class="img-responsive">
+                        </a>
+
+                        <div class="overlay" ng-if="project.Site.length > 3">
+                            <div class="price">
+                                {{project.Site}}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="back">
+                        <a href="{{project.Site}}" class="back-text">
+                            <h5>{{project.Name}}</h5>
+
+                            <p class="flip-intro">
+                                {{project.Description}} <br/>
+                                {{strings.CBTitle}}: {{project.CB}} <br/>
+                                {{strings.UsedLibs}}: {{project.UsedLibs}} <br/>
+                            </p>
+
+                            <p class="flip-link" ng-if="project.Site.length > 3">{{strings.ViewSite}}</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container footer" ng-cloak>
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4 contacts">
+            <p class="contacts" ng-bind-html="strings.AboutMe"></p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-8 info">
+            <p class="info" ng-bind-html="strings.FooterText"></p>
+        </div>
+    </div>
+</div>
+
+
+<!-- Scripts -->
+<script src="js/modernizr.custom.2.7.0.min.js"></script>
+<script src="js/modernizr.conf.js"></script>
+</body>
+
+</html>

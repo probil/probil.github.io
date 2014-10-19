@@ -1,0 +1,181 @@
+{
+    "Name": "Portfolio",
+    "ViewSite": "Go to page",
+    "FooterText": "All this works is created by me (details in project description). Any implimentatin I can do again and explain. If you won't see your project here – just let me know.<br/><br/>English language of this page is selected automaticaly based on your browsers settings. This page also available on <a href='?eng#?gl=uk'>Ukrainian</a> and <a href='?eng#?gl=ru'>Russian</a> languages. <br/><br/>Ma)(imuM (c) 2014 | Created with superheroic MVW framework <a href='https://angularjs.org/'>AngularJS</a> and <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/transform-style'>experimental CSS3 features.</a>",
+    "AboutMe":"<span class='name'>Maks Lyashuk</span><br/>also known as <span class='altername'>Ma)(imuM</span>, <span class='altername'>probil</span>, <span class='altername'>probel</span>.<br/><br/> Programmer, webmaster, geek,<br/>translator, lifehaker, linux-user. <br/><br/> virus_trojan_mod <i class='fa fa-skype'></i><br/>m_lyashuk@ukr.net <i class='fa fa-envelope'></i>",
+    "Tip": "Try to move your cursor here",
+    "GoToBlog":"Return to blog",
+    "CBTitle": "Cross-browser",
+    "UsedLibs": "Libs",
+    "NoPhotoUrl": "http://i.imgur.com/ct1lokN.png?3",
+    "Projects": [
+        {
+            "Name": "Site «Убей рутину! — 2»",
+            "Description": "All front-end (layout from PSD, animation, behavior)",
+            "CB": "Mobile (iOS, Android) / PC (IE8+)",
+            "UsedLibs": "jQuery, FancyBox, iosslider, PIE",
+            "Image": "img/sites/rutina.jpg",
+            "Site": "http://rutina2.mayer-pulse.ru"
+        },
+        {
+            "Name": "Infographics «Как выбрать штори»",
+            "Description": "Layout from PDF to publish in blog, font identification",
+            "CB": "PC (IE8+) ",
+            "UsedLibs": "----",
+            "Image": "img/sites/shtory-infographics.png",
+            "Site": ""
+        },
+        {
+            "Name": "Site «Нивелирование отзывов»",
+            "Description": "Front-end (partial layout from PSD, animation, behavior)",
+            "CB": "PC (IE8+)",
+            "UsedLibs": "jQuery, JQuery.MouseWheel, Endless, Velocity",
+            "Image": "img/sites/leveling.jpg",
+            "Site": "http://leveling.mayer-pulse.ru/"
+        },
+        {
+            "Name": "Site «Ам-клуб»",
+            "Description": "Front-end (partial layout from PSD, animation, sliders not included)",
+            "CB": "PC (IE8+)",
+            "UsedLibs": "jQuery, FancyBox, brickwork",
+            "Image": "img/sites/amclub_in.jpg",
+            "Site": "http://amclub.su/"
+        },
+        {
+            "Name": "Site «Анна Грибанова, художник»",
+            "Description": "Front-end (Layout from EPS, js not included)",
+            "CB": "PC (IE8+)",
+            "UsedLibs": "--",
+            "Image": "img/sites/anna-gribanova.jpg",
+            "Site": "http://annagribanova.ru/"
+        },
+        {
+            "Name": "Site «Assassin creed»",
+            "Description": "Front-end (Layout from PSD)",
+            "CB": "PC (modern browsers)",
+            "UsedLibs": "--",
+            "Image": "img/sites/Assassins-Creed.jpg",
+            "Site": ""
+        },
+        {
+            "Name": "Site «Ростовский театр им.Горького»",
+            "Description": "Front-end (layout from PSD (ticket order), SVG-map with feature to select sector and sit on click)",
+            "CB": "PC (IE9+)",
+            "UsedLibs": "jQuery, FancyBox",
+            "Image": "img/sites/bilety.jpg",
+            "Site": ""
+        },
+        {
+            "Name": "SWF -> HTML+CSS3",
+            "Description": "Flash to html5 web-page conversion with CSS3 animation. Three files",
+            "CB": "PC (modern browsers)",
+            "UsedLibs": "----",
+            "Image": "img/sites/11.08.2014.cover6.jpg",
+            "Site": ""
+        },
+        {
+            "Name": "Site «Counter-Strike: Global Offensive»",
+            "Description": "Front-end (layout from PSD)",
+            "CB": "PC (modern browsers)",
+            "UsedLibs": "----",
+            "Image": "img/sites/cs_go_olisov_19.08.2014.jpg",
+            "Site": ""
+        },
+        {
+            "Name": "Site «Центр кузовного ремонта ФОРУМ»",
+            "Description": "Front-end (Layout from PSD, video-player and Google Map connection)",
+            "CB": "PC (modern browsers)",
+            "UsedLibs": "Google Maps, uppod",
+            "Image": "img/sites/ekaterina.20.08.2014.jpg",
+            "Site": "http://forumkuzov.ru/"
+        },
+        {
+            "Name": "Site «Все о серии игр GTA»",
+            "Description": "Front-end (Layout from PSD)",
+            "CB": "PC (modern browsers)",
+            "UsedLibs": "----",
+            "Image": "img/sites/gta.20.08.2014.jpg",
+            "Site": ""
+        },
+        {
+            "Name": "Site «Кіномлин»",
+            "Description": "Front-end (Layout from PSD. All site pages.)",
+            "CB": "PC (modern browsers)",
+            "UsedLibs": "jQuery, Pirobox Extended, Select2",
+            "Image": "img/sites/kinomlyn.2013.jpg",
+            "Site": ""
+        },
+        {
+            "Name": "Site «Лас-Вегас бар»",
+            "Description": "Front-end (Layout optimization 25Mb->9Mb, responsive fixes, modal window fix)",
+            "CB": "Мobile (iOS 3+) / PC (IE8+, Opera 11+)",
+            "UsedLibs": "jQuery, FancyBox",
+            "Image": "img/sites/lasv-index.jpg",
+            "Site": ""
+        },
+        {
+            "Name": "Site «Mirapolis:LMS»",
+            "Description": "Front-end (Layout from PSD, slider, modal windows, parallax effect not included)",
+            "CB": "PC (IE8+)",
+            "UsedLibs": "jQuery, FancyBox, AnythingSlider",
+            "Image": "img/sites/LMS_2.09.2014.jpg",
+            "Site": ""
+        },
+        {
+            "Name": "Site «Парус»",
+            "Description": "Front-end (Layout from PSD)",
+            "CB": "ПК (IE8+)",
+            "UsedLibs": "----",
+            "Image": "img/sites/restoranParus.jpg",
+            "Site": ""
+        },
+        {
+            "Name": "Site «NEWMAC»",
+            "Description": "Front-end (Layout from PSD, modal windows)",
+            "CB": "ПК (IE9+ / IE8- (IE gag))",
+            "UsedLibs": "jQuery, FancyBox, PIE",
+            "Image": "img/sites/newmac_13.08.2014.jpg",
+            "Site": ""
+        },
+        {
+            "Name": "Site «NAKUP.RU»",
+            "Description": "Front-end – form appears logic (JS) / Back-end – send email feature (PHP)",
+            "CB": "unknown",
+            "UsedLibs": "----",
+            "Image": "img/sites/nakup.loc.jpg",
+            "Site": "http://nakup.ru/"
+        },
+        {
+            "Name": "Site «S.T.A.L.K.E.R — серия игр»",
+            "Description": "Front-end (Layout from PSD)",
+            "CB": "PC (modern browsers)",
+            "UsedLibs": "--",
+            "Image": "img/sites/stalker.jpg",
+            "Site": ""
+        },
+        {
+            "Name": "Site «UaLT»",
+            "Description": "Front-end (design and implementation) + simple back-end on PHP",
+            "CB": "PC (modern browsers)",
+            "UsedLibs": "jQuery, FancyBox, CKEditor",
+            "Image": "img/sites/ualt.loc.jpg",
+            "Site": ""
+        },
+        {
+            "Name": "Site «ФинЭксперт»",
+            "Description": "Front-end – form appears logic (JS) / Back-end – send email feature (PHP)",
+            "CB": "unknown",
+            "UsedLibs": "FancyBox",
+            "Image": "img/sites/finexpert.loc.jpg",
+            "Site": "http://finexpert-spb.ru/"
+        },
+        {
+            "Name": "Site «Minecraft»",
+            "Description": "Front-end (Layout from PSD)",
+            "CB": "PC (modern browsers)",
+            "UsedLibs": "--",
+            "Image": "img/sites/Minecraft.jpg",
+            "Site": ""
+        }
+    ]
+}

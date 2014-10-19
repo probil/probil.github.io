@@ -1,0 +1,181 @@
+{
+    "Name": "Портфоліо",
+    "ViewSite": "Перейти на сторінку",
+    "FooterText": "Всі наведені тут проекти частково або повністю виконані безпосередньо мною (деталі в описі до проекту). Будь-яку реалізацію я можу повторити або пояснити. Якщо ви з якихось причин не бажаєте бачити тут свою роботу – просто повідомте мені.<br/><br/>Українську мову даної сторінки обрано автоматично згідно налаштувань вашого браузера. Cторінка також існує <a href='?ukr#?gl=ru'>російською</a> та <a href='?ukr#?gl=en'>англійською</a> мовами. <br/><br/>Ma)(imuM (c) 2014 | Створено на базі MVW-бібліотеки <a href='https://angularjs.org/'>AngularJS</a> та <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/transform-style'>експериментальних функцій CSS3</a>",
+    "AboutMe":"<span class='name'>Макс Ляшук</span><br/>також відомий як <span class='altername'>Ma)(imuM</span>, <span class='altername'>probil</span>, <span class='altername'>probel</span>.<br/><br/> Програміст, верстальник, ґік, <br />перекладач, лайфхакер, лінуксоїд. <br/><br/> virus_trojan_mod <i class='fa fa-skype'></i><br/> m_lyashuk@ukr.net <i class='fa fa-envelope'></i>",
+    "Tip": "Спробуй навести сюди курсор",
+    "GoToBlog":"Повернутись до блоґу",
+    "CBTitle": "Кросбраузерніть",
+    "UsedLibs": "Бібліотеки",
+    "NoPhotoUrl": "http://i.imgur.com/ct1lokN.png?3",
+    "Projects": [
+        {
+            "Name": "Сайт «Убей рутину! — 2»",
+            "Description": "Увесь front-end (верстка psd, анімація, поведінка)",
+            "CB": "МОБ (iOS, Android) / ПК (IE8+)",
+            "UsedLibs": "jQuery, FancyBox, iosslider, PIE",
+            "Image": "img/sites/rutina.jpg",
+            "Site": "http://rutina2.mayer-pulse.ru"
+        },
+        {
+            "Name": "Інфографіка «Как выбрать штори»",
+            "Description": "Верстка pdf для вставки в блоґ, підбір шрифтів",
+            "CB": "ПК (IE8+) ",
+            "UsedLibs": "----",
+            "Image": "img/sites/shtory-infographics.png",
+            "Site": ""
+        },
+        {
+            "Name": "Сайт «Нивелирование отзывов»",
+            "Description": "Front-end (часткова верстка psd, анімація, поведінка)",
+            "CB": "ПК (IE8+)",
+            "UsedLibs": "jQuery, JQuery.MouseWheel, Endless, Velocity",
+            "Image": "img/sites/leveling.jpg",
+            "Site": "http://leveling.mayer-pulse.ru/"
+        },
+        {
+            "Name": "Сайт «Ам-клуб»",
+            "Description": "Front-end (часткова верстка psd, анімація, не включаючи слайдери)",
+            "CB": "ПК (IE8+)",
+            "UsedLibs": "jQuery, FancyBox, brickwork",
+            "Image": "img/sites/amclub_in.jpg",
+            "Site": "http://amclub.su/"
+        },
+        {
+            "Name": "Сайт «Анна Грибанова, художник»",
+            "Description": "Front-end (верстка eps, не включаючи js)",
+            "CB": "ПК (IE8+)",
+            "UsedLibs": "--",
+            "Image": "img/sites/anna-gribanova.jpg",
+            "Site": "http://annagribanova.ru/"
+        },
+        {
+            "Name": "Сайт «Assassin creed»",
+            "Description": "Front-end (верстка односторінкового psd)",
+            "CB": "ПК (сучасні браузери)",
+            "UsedLibs": "--",
+            "Image": "img/sites/Assassins-Creed.jpg",
+            "Site": ""
+        },
+        {
+            "Name": "Сайт «Ростовский театр им.Горького»",
+            "Description": "Front-end (верстка з psd замовлення білета, SVG-карта з можливістю вибору сектору/місця по кліку)",
+            "CB": "ПК (IE9+)",
+            "UsedLibs": "jQuery, FancyBox",
+            "Image": "img/sites/bilety.jpg",
+            "Site": ""
+        },
+        {
+            "Name": "SWF -> HTML+CSS3",
+            "Description": "Близьке до оригіналу перетворення трьох флеш-додатків на веб-сторінку з реалізацією анімації на css3.",
+            "CB": "ПК (сучасні браузери)",
+            "UsedLibs": "--",
+            "Image": "img/sites/11.08.2014.cover6.jpg",
+            "Site": ""
+        },
+        {
+            "Name": "Сайт «Counter-Strike: Global Offensive»",
+            "Description": "Front-end (верстка односторінкового psd)",
+            "CB": "ПК (сучасні браузери)",
+            "UsedLibs": "--",
+            "Image": "img/sites/cs_go_olisov_19.08.2014.jpg",
+            "Site": ""
+        },
+        {
+            "Name": "Сайт «Центр кузовного ремонта ФОРУМ»",
+            "Description": "Front-end (верстка psd, підключення відео-програвача та карти)",
+            "CB": "ПК (сучасні браузери)",
+            "UsedLibs": "Google Maps, uppod",
+            "Image": "img/sites/ekaterina.20.08.2014.jpg",
+            "Site": "http://forumkuzov.ru/"
+        },
+        {
+            "Name": "Сайт «Все о серии игр GTA»",
+            "Description": "Front-end (верстка psd)",
+            "CB": "ПК (сучасні браузери)",
+            "UsedLibs": "--",
+            "Image": "img/sites/gta.20.08.2014.jpg",
+            "Site": ""
+        },
+        {
+            "Name": "Сайт «Кіномлин»",
+            "Description": "Front-end (верстка всіх сторінок сайту, psd)",
+            "CB": "ПК (сучасні браузери)",
+            "UsedLibs": "jQuery, Pirobox Extended, Select2",
+            "Image": "img/sites/kinomlyn.2013.jpg",
+            "Site": ""
+        },
+        {
+            "Name": "Сайт «Лас-Вегас бар»",
+            "Description": "Front-end (оптимізація верстки 25Мб->9Мб, фікс адаптивністі та модального вікна)",
+            "CB": "МОБ (iOS 3+) / ПК (IE8+, Opera 11+)",
+            "UsedLibs": "jQuery, FancyBox",
+            "Image": "img/sites/lasv-index.jpg",
+            "Site": ""
+        },
+        {
+            "Name": "Сайт «Mirapolis:LMS»",
+            "Description": "Front-end (часткова верстка psd, cлайдер, модальні вікна, не включаючи паралакс)",
+            "CB": "ПК (IE8+)",
+            "UsedLibs": "jQuery, FancyBox, AnythingSlider",
+            "Image": "img/sites/LMS_2.09.2014.jpg",
+            "Site": ""
+        },
+        {
+            "Name": "Сайт ресторану «Парус»",
+            "Description": "Front-end (верстка psd)",
+            "CB": "ПК (IE8+)",
+            "UsedLibs": "----",
+            "Image": "img/sites/restoranParus.jpg",
+            "Site": ""
+        },
+        {
+            "Name": "Сайт «NEWMAC»",
+            "Description": "Front-end (верстка psd, модальні вікна)",
+            "CB": "ПК (IE9+ / IE8- (заглушка))",
+            "UsedLibs": "jQuery, FancyBox, PIE",
+            "Image": "img/sites/newmac_13.08.2014.jpg",
+            "Site": ""
+        },
+        {
+            "Name": "Сайт «NAKUP.RU»",
+            "Description": "Front-end - логіка прив’яки форм (JS) / Back-end - налаштування відправки email (PHP)",
+            "CB": "невідомо",
+            "UsedLibs": "----",
+            "Image": "img/sites/nakup.loc.jpg",
+            "Site": "http://nakup.ru/"
+        },
+        {
+            "Name": "Сайт «S.T.A.L.K.E.R — серия игр»",
+            "Description": "Front-end (верстка psd)",
+            "CB": "ПК (сучасні браузери)",
+            "UsedLibs": "--",
+            "Image": "img/sites/stalker.jpg",
+            "Site": ""
+        },
+        {
+            "Name": "Сайт «UaLT»",
+            "Description": "Front-end (дизайн та реалізація) + простий back-end на php",
+            "CB": "ПК (сучасні браузери)",
+            "UsedLibs": "jQuery, FancyBox, CKEditor",
+            "Image": "img/sites/ualt.loc.jpg",
+            "Site": ""
+        },
+        {
+            "Name": "Сайт «ФинЭксперт»",
+            "Description": "Front-end – логіка форм (JS) / Back-end – налаштування відправки email (PHP)",
+            "CB": "невідомо",
+            "UsedLibs": "FancyBox",
+            "Image": "img/sites/finexpert.loc.jpg",
+            "Site": "http://finexpert-spb.ru/"
+        },
+        {
+            "Name": "Сайт «Minecraft»",
+            "Description": "Front-end (верстка psd)",
+            "CB": "ПК (сучасні браузери)",
+            "UsedLibs": "--",
+            "Image": "img/sites/Minecraft.jpg",
+            "Site": ""
+        }
+    ]
+}
