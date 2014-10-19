@@ -16,7 +16,7 @@ image:
 
 ### Контакти
 
-<i class="fa fa-phone"></i> +380968913226, +380634308211  
+<i class="fa fa-phone"></i> [+38096XXXX226, +38063XXXX211]( "не публікую повні номери з міркувань безпеки")  
 <i class="fa fa-skype"></i> [virus_trojan_mod](skype:virus_trojan_mod?chat)  
 <i class="fa fa-send"></i> [m_lyashuk@ukr.net](mailto:m_lyashuk@ukr.net)  
 
