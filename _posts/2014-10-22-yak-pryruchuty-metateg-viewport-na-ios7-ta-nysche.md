@@ -3,7 +3,7 @@ layout: post
 title: "Як приручити мета-теґ 'viewport' на iOS7 та нище"
 modified:
 categories: posts
-excerpt: "Власний досвід спілкування з <meta name='viewport'/> на iOS7/6/5."
+excerpt: "Власний досвід спілкування з viewport на iOS7/6/5."
 tags: [front-end, iOS, viewport, iOS7, meta, вигляд, масштаб, правки, html]
 image:
   feature: 22.2014/How-to-Train-Your-Dragon.jpg
