@@ -104,6 +104,12 @@ background-image  : -o-linear-gradient($deg, $startColor, $endColor);           
 background-image  : linear-gradient($deg, $startColor, $endColor);              // W3C
 background-repeat : repeat-x; }
 
+@mixin bottom($startColor, $endColor){
+  background: -webkit-gradient(linear, left top, left bottom, from($startColor), to($endColor)) no-repeat bottom;
+  background: -moz-linear-gradient($startColor, $endColor) no-repeat bottom;
+  background: -o-linear-gradient($startColor, $endColor) no-repeat bottom;
+  background: linear-gradient($startColor,$endColor) no-repeat bottom;
+}
 // .bordered(COLOR, COLOR, COLOR, COLOR);
 @mixin bordered($top-color: #eee, $right-color: #eee, $bottom-color: #eee, $left-color: #eee) {
 border-top : solid 1px $top-color;
@@ -182,6 +188,14 @@ transform : skew($x, $y); }
 -ms-transition : $transition;
 -o-transition : $transition;
 transition : $transition; }
+
+// .transition(PROPERTY DURATION DELAY(OPTIONAL) TIMING-FINCTION);
+@mixin transitionTwo($transition1, $transition2) {
+  -webkit-transition : $transition1, $transition2;
+  -moz-transition : $transition1,$transition2;
+  -ms-transition : $transition1, $transition2;
+  -o-transition : $transition1, $transition2;
+  transition : $transition1, $transition2; }
 
 // .translate(VALUE, VALUE)
 @mixin translate($x: 0, $y: 0) {

@@ -101,7 +101,7 @@ $button-size: 1.5rem;
 	opacity: 1;
 }
 .navicon-lines-button:active {
-	transition: 0;
+	transition: none;
 }
 .navicon-lines {
 	margin-right: 10px;
@@ -407,8 +407,16 @@ $button-size: 1.5rem;
 	p > a,
 	li > a {
 		border-bottom: 1px dotted lighten($link-color, 50);
+	  	/* edited 29.11.2014 */
+	  	padding-left: 2px;
+		padding-right: 2px;
+		@include bottom(#343434, #343434);
+		@include background-size(100% 0);
+		@include transitionTwo(background-size .2s,color .1s .1s);
 		&:hover {
 			border-bottom-style: solid;
+		  	@include background-size(100% 100%);
+		  	color: #eee;
 		}
 	}
 	p > a.reversefootnote, 
@@ -643,7 +651,6 @@ $button-size: 1.5rem;
 	text-align: center;
 	margin: 0 0 2em 0;
 	padding: 10px;
-	text-align: center;
 	color: $white;
 	a {
 		color: $white;
