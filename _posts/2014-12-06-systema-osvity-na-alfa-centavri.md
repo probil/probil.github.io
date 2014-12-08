@@ -3,7 +3,7 @@ layout: post
 title: "Система освіти на Альфа Центаврі або університет не зробить тебе розумнішим"
 modified:
 categories: posts
-excerpt: 
+excerpt: "Конкретизація проблеми на власне бачення (основі відео Молчановського)"
 tags: [освіта, думки, відео, lifehacking, Україна, IT]
 image:
   feature: 12.2014/peoplesStudyHouse.jpg
