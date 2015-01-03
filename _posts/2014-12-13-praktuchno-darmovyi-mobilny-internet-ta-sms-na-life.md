@@ -58,6 +58,6 @@ Life:) випустив гру в Play Market під час гри в яку м�
 
 
 ### Завантаження гри
-<img src="https://chart.apis.google.com/chart?chs=200x200&amp;cht=qr&amp;chld=|1&amp;chl=http%3A%2F%2Fgoo.gl%2FOXVvSU" alt="QR Code" />
+<img src="//chart.apis.google.com/chart?chs=200x200&amp;cht=qr&amp;chld=|1&amp;chl=http%3A%2F%2Fgoo.gl%2FOXVvSU" alt="QR Code" />
 <a href="https://play.google.com/store/apps/details?id=com.kitmaker.sa.life.skydrive&hl=uk"><img alt="Get it on Google Play" src="https://developer.android.com/images/brand/uk_generic_rgb_wo_45.png" /></a>
 <img src="https://lh3.ggpht.com/YVAAAVIXujt3zShs_KUrvtlY10G6tKRX6aUQHVQ-e98Tx8Q6FyVTR1tqga8J1hD_kUM=w176" alt="Game logo"/>
