@@ -5,10 +5,15 @@
    PT Sans Narrow [Normal:400,700] (from Google)
 \* ============================ */
 
-@import url("https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic");
+@import url("//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic");
 
 /* ============================ *\
    PT Serif [Normal:400,700; Italic:400,700;] (from Google)
 \* ============================ */
 
-@import url("https://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic&subset=latin,cyrillic");
+@import url("//fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic&subset=latin,cyrillic");
+
+/* ============================ *\
+   Font Awesome
+\* ============================ */
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
